@@ -3,7 +3,16 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>message_simulator</RootNamespace>
+    <RootNamespace>CSGOStats.Testing.MessageSimulator</RootNamespace>
+    <AssemblyName>CSGOStats.Testing.MessageSimulator</AssemblyName>
+    <Authors />
+    <Company />
+    <Product />
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CSGOStats.Infrastructure.Messaging" Version="0.1.2" />
+    <PackageReference Include="CSGOStats.Services.HistoryParse.Objects" Version="1.0.0" />
+  </ItemGroup>
 
 </Project>
